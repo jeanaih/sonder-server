@@ -1,0 +1,33 @@
+{
+  "name": "sonder",
+  "version": "1.0.0",
+  "description": "Real-time organizational mood tracker with Socket.io and Firebase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "mood",
+    "tracker",
+    "realtime",
+    "socket.io",
+    "firebase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/cli": "^8.2.0",
+    "@capacitor/core": "^8.2.0",
+    "@capacitor/local-notifications": "^8.0.2",
+    "@capacitor/push-notifications": "^8.0.2",
+    "@supabase/supabase-js": "^2.98.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.7.0",
+    "mongodb": "^7.1.0",
+    "socket.io": "^4.8.3"
+  }
+}
